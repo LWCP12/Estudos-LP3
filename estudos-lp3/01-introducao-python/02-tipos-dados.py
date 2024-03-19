@@ -115,3 +115,25 @@ print(candidato.values())
 
 # 7. None
 nome = None
+
+
+print(" CASE 2: When we need to take multiple input in Python")
+#print statement
+
+s,t,u = [int(s) for s in input("Please enter values for variables ").split()]
+# assigning values in a single line for three variables s, t, and u and implementing a list comprehension method to obtain individual values
+print("The value for variables are :", s,t,u)
+# printing the three variables
+
+a,b,c = [int(a) for a in input("Please enter values for variables ").split(",")]
+# assigning values in a single line for three variables a, b and c and implementing a list comprehension method to obtain individual values
+print("The value for variables are :", a,b,c)
+# printing the three variables
+
+print(" CASE 3: When we need to take Multiple Inputs using separator:")
+#print statement
+
+k = [int(k) for k in input("Please enter two values for variables ").split(",")]
+# assigning values in a single line for three variables a, b and c and implementing a list comprehension method to obtain individual values
+print("The value for variables are :", k)
+# printing the three variables
