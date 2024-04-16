@@ -1,6 +1,8 @@
-#Ex2 - Escreva um programa que solicita ao usuário 3 notas e apresenta a média aritmética
+def exibir_tabuada(numero):
+    for multiplicador in range(1, 11):
+        resultado = numero * multiplicador
+        print(f'{numero} x {multiplicador} = {resultado}')
 
-n1,n2,n3 = [int(n1) for n1 in input("Coloque as três notas ").split()]
-print("As notas são", n1,n2,n3)
-m = (n1 + n2 + n3)/3
-print(m)
+numero = int(input('Digite um número inteiro para mostrar sua tabuada:\n'))
+
+exibir_tabuada(numero)
