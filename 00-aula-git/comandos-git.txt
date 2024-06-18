@@ -1,0 +1,10 @@
+git init = inicializar repositorio
+git config -l = exibe as config
+git config --global user.(name/mail) = define o email/nome do usuário
+git clone = faz o download de um repositorio remoto
+git status = apresenta o status do repositorio
+git add <arquivo> = adiciona um arquivo para o próximo commit
+git add . = adiciona todos os arquivos (untracked e modified) para o próximo commit
+git commit -m = commita todos os arquivos para o repositorio remoto e adiciona uma mensagem
+git remote add origin = adiciona uma origem do repositorio remoto
+git push -u origin main = empurra todos os arquivos para o repositorio origem
